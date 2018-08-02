@@ -336,6 +336,7 @@ class BasicRNNCell(LayerRNNCell):
   Args:
     num_units: int, The number of units in the RNN cell.
     activation: Nonlinearity to use.  Default: `tanh`.
+    single unit = single neuron.
     reuse: (optional) Python boolean describing whether to reuse variables
      in an existing scope.  If not `True`, and the existing scope already has
      the given variables, an error is raised. 
