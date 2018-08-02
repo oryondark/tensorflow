@@ -338,7 +338,8 @@ class BasicRNNCell(LayerRNNCell):
     activation: Nonlinearity to use.  Default: `tanh`.
     reuse: (optional) Python boolean describing whether to reuse variables
      in an existing scope.  If not `True`, and the existing scope already has
-     the given variables, an error is raised.
+     the given variables, an error is raised. 
+     for instance, that is bias-terms.
     name: String, the name of the layer. Layers with the same name will
       share weights, but to avoid mistakes we require reuse=True in such
       cases.
